@@ -19,5 +19,5 @@ driver = webdriver.Chrome(service=service, options=options)
 
 
 driver.get("http://localhost:8000")
-assert "Congratulations" in driver.title
+assert "To-Do" in driver.title
 print("ok")
